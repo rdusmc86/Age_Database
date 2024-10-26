@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.rharris.agedatabaseapp.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_insert"
+        android:name="com.rharris.agedatabaseapp.InsertFragment"
+        android:label="Insert"
+        tools:layout="@layout/content_insert" />
+
+    <fragment
+        android:id="@+id/nav_search"
+        android:name="com.rharris.agedatabaseapp.SearchFragment"
+        android:label="Search"
+        tools:layout="@layout/content_search" />
+
+    <fragment
+        android:id="@+id/nav_delete"
+        android:name="com.rharris.agedatabaseapp.DeleteFragment"
+        android:label="Delete"
+        tools:layout="@layout/content_delete" />
+
+    <fragment
+        android:id="@+id/nav_results"
+        android:name="com.rharris.agedatabaseapp.ResultsFragment"
+        android:label="Results"
+        tools:layout="@layout/content_results" />
+
+    <fragment
+        android:id="@+id/nav_gallery"
+        android:name="com.rharris.agedatabaseapp.ui.gallery.GalleryFragment"
+        android:label="@string/menu_gallery"
+        tools:layout="@layout/fragment_gallery" />
+
+    <fragment
+        android:id="@+id/nav_slideshow"
+        android:name="com.rharris.agedatabaseapp.ui.slideshow.SlideshowFragment"
+        android:label="@string/menu_slideshow"
+        tools:layout="@layout/fragment_slideshow" />
+</navigation>

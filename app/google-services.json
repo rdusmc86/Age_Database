@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "908038237389",
+    "project_id": "exercise-4-c4e11",
+    "storage_bucket": "exercise-4-c4e11.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:908038237389:android:5c82df9e96f36dcacb0d84",
+        "android_client_info": {
+          "package_name": "com.rharris.agedatabaseapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "xxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
