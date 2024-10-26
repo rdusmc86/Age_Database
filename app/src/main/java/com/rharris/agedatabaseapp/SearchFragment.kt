@@ -22,7 +22,6 @@ class SearchFragment : Fragment(R.layout.content_search) {
             container,
             false)
 
-// Database and UI code goes here in next chapter
         val btnSearch: Button = view.findViewById(R.id.btnSearch)
         val editSearch: EditText = view.findViewById(R.id.editSearch)
         val textResult: TextView = view.findViewById(R.id.textResult)
